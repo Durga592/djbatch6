@@ -33,3 +33,13 @@ FOR EXISTING FILE DATA UPDATION
 
 ->git commit -m "New addons" DataCenter\urls.py
 ->git push -u origin master
+IV)
+local urls:-
+http://localhost:8000/get_temp/
+http://localhost:8000/register_form/
+http://localhost:8000/student_register_form/
+http://localhost:8000/student_register_form1/
+http://localhost:8000/student_register_form2/
+http://localhost:8000/student_register_form3/
+http://localhost:8000/student_register_form4/
+http://localhost:8000/student_register_form5/
