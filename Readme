@@ -24,15 +24,15 @@ I)
 II)
 FOR NEW FILE COMMIT
 
-->git add Notes.txt
-->git commit -m "New file updates" Notes.txt
-->git push -u origin master
+->git add Notes.txt    (OR)   git add .
+->git commit -m "New file updates" Notes.txt  (OR) git commit -m "New file updates"
+->git push -u origin master  (OR)   git push origin master
 
 III)
 FOR EXISTING FILE DATA UPDATION
 
-->git commit -m "New addons" DataCenter\urls.py
-->git push -u origin master
+->git commit -m "New addons" DataCenter\urls.py   (OR)   git commit -m "New file updates"
+->git push -u origin master   (OR)   git push origin master
 IV)
 local urls:-
 http://localhost:8000/get_temp/
