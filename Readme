@@ -1,0 +1,35 @@
+################ PROJECT, APP creation & GIT COMMIT steps ################
+django-admin startproject DataCenter
+
+cd DataCenter  ->   
+	python manage.py startapp cooling
+	python manage.py startapp cooling1
+	python manage.py startapp cooling2
+	python manage.py startapp cooling3
+	python manage.py startapp cooling4
+	python manage.py startapp cooling5
+
+python manage.py runserver
+
+################ GIT PROJECT ADD && UPDATE steps ################
+I)
+1. git init
+2. git add .
+3. git config --global user.email "mail id"
+4. git config --global user.name "GITHUB USERNAME"
+5. git commit -m "Some message for data commit"
+6. git remote add origin https://github.com/Durga592/djbatch6.git
+7. git push -u origin master
+
+II)
+FOR NEW FILE COMMIT
+
+->git add Notes.txt
+->git commit -m "New file updates" Notes.txt
+->git push -u origin master
+
+III)
+FOR EXISTING FILE DATA UPDATION
+
+->git commit -m "New addons" DataCenter\urls.py
+->git push -u origin master
